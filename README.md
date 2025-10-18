@@ -14,8 +14,9 @@ This project is a hands-on workshop from the Robotics course of Leiden Universit
 1. Download and install [CoppeliaSim EDU 4.9.0 rev 6](https://www.coppeliarobotics.com/downloads) for your OS.
 
 ### Install dependencies
+```
 python -m pip install numpy opencv-python matplotlib coppeliasim-zmqremoteapi-client cbor2 keyboard
-
+```
 
 ## Running the Simulation
 1. Launch CoppeliaSim and open the scene file: `scenes/room_static1.ttt`.
